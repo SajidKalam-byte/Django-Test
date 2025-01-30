@@ -1,0 +1,31 @@
+
+body {
+    padding-top: 56px;
+    background-color: #17487a;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 80px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.hover-translate:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
